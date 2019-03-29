@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
         StaggeredGridLayoutManager lmStaggeredVertical = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
         recycler.setLayoutManager(lmStaggeredVertical);
+
+        //horizontal
+        //StaggeredGridLayoutManager lmStaggeredHorizontal = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.HORIZONTAL);
+        //recycler.setLayoutManager(lmStaggeredHorizontal);
     }
 
     private void adListimagenes() {
